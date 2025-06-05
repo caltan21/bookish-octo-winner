@@ -62,6 +62,13 @@ class Articulo extends Conexion {
         $stmt->bindValue(1, $id);
         $stmt->execute();
         return $stmt->rowCount();
+        echo "# bookish-octo-winner" >> README.md 
+git init 
+git add README.md 
+git commit -m "primer commit" 
+git branch -M main 
+git remote add origin https://github.com/caltan21/bookish-octo-winner.git
+ git push -u origin main
     }
 }
 ?>
